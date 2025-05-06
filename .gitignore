@@ -1,13 +1,29 @@
-*.tar
-*.tar.*
-*.jar
-*.exe
-*.msi
-*.zip
-*.tgz
-*.log
-*.log.*
-*.sig
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+.env.*
 
-pkg/
-src/
+# Jupyter (ถ้ามีใช้ notebook)
+.ipynb_checkpoints
+
+# VSCode
+.vscode/
+
+# Data
+*.parquet
+data/
+
+# Docker
+*.log
+
+# Streamlit cache
+.streamlit/
+
+# System
+.DS_Store
+Thumbs.db
